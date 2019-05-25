@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projects.deathstroke.placement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        >
+        <activity android:name=".Upload"
+            android:theme="@style/AppTheme"
+            android:label="Upload Documnets"
+            ></activity>
+        <activity
+            android:name=".Companydetails"
+            android:label="Company Details"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Personaldetails"
+            android:label="Personal Details"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Facultyhome"
+            android:label="Faculty Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Studenthome"
+            android:label="Student Home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

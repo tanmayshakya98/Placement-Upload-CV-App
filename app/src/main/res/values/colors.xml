@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4511E</color>
+    <color name="colorPrimaryDark">#F4511E</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="background">#FFD740</color>
+    <color name="backround1">#FFF7E3</color>
+    <color name="bgcenter">#8091FF</color>
+    <color name="green">#43A047</color>
+    <color name="uploadbtn">#0087FF</color>
+    <color name="text">#4E4E4E</color>
+</resources>
